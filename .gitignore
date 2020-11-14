@@ -2,3 +2,4 @@ node_modules/
 .vscode
 .firebase
 .firebase-debug.log
+public/build
