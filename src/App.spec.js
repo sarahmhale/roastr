@@ -1,4 +1,4 @@
-import Counter from './Counter.svelte'
+import Counter from './App.svelte'
 import { render } from '@testing-library/svelte'
 
 it('it works', async () => {
