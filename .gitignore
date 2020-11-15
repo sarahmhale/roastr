@@ -3,3 +3,6 @@ node_modules/
 .firebase
 .firebase-debug.log
 public/build
+
+yarn.lock
+yarn-error.log
