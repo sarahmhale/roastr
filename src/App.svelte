@@ -1,7 +1,8 @@
 <script lang="ts">
 
-import Header from './components/Header/index.svelte'
-import { reviews } from './stores/reviews'
+	import Header from './components/Header/index.svelte'
+	import Display from './components/Display/index.svelte';
+	import { reviews } from './stores/reviews'
 </script>
 <style>	
 :global(body) {
@@ -11,6 +12,6 @@ import { reviews } from './stores/reviews'
 </style>
 <div id="main">
 	<Header />
-	<p>Reviews:{$reviews}</p>
+	<Display />
 </div>
 
